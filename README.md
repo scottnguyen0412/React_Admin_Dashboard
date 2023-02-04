@@ -68,4 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### React Package and react version used
+- React version 18.2
+- React router dom version 6.0
+- React pro sidebar version 0.7.1
+- Material UI(mui)
+- Material UI Datagrid
+- Material Icon
+- Formilk yup: validation form
+- Fullcalendar/daygrid
+- Fullcalendar/timegrid
+- Fullcalendar/list
+- Fullcalendar/react
+- Fullcalendar/interaction
+- Nivo charts
+
 # React_Admin_Dashboard
+
+
