@@ -1,6 +1,6 @@
 import {colorModeContext, useMode} from './theme';
-import {CssBaseLine, ThemeProvider} from '@mui/material';
-// import {Navbar} from './scenes/global/Navbar.jsx';
+import {CssBaseline, ThemeProvider} from '@mui/material';
+import Navbar from './scenes/global/Navbar.jsx';
 
 function App() {
   const[theme, colorMode] = useMode();
@@ -9,10 +9,10 @@ function App() {
     <colorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         {/* Reset Css */}
-        <CssBaseLine/>
+        <CssBaseline/>
         <div className="app">
           <main className='content'>
-            {/* <Navbar/> */}
+            <Navbar/>
           </main>
         </div>
       </ThemeProvider>
