@@ -28,7 +28,7 @@ const Navbar = () => {
                     </IconButton>
             </Box>
             {/* Icon */}
-            <Box display="flex" >
+            <Box display="flex">
                 <IconButton>
                     <NotificationsOutlinedIcon/>
                 </IconButton>

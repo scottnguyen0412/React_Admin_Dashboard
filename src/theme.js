@@ -209,6 +209,7 @@ export const colorModeContext = createContext({
 
 // this function allow change color entire color app
 export const useMode = () => {
+    //Create default theme is 'dark'
     const[mode, setMode] = useState("dark");
     
     const colorMode = useMemo(
