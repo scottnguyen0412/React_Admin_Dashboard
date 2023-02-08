@@ -5,7 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 import Dashboard from './scenes/dashboard/index.jsx';
 import Sidebar from './scenes/global/Sidebar.jsx';
 
-// import TeamPage from './scenes/teamPage.jsx';
+import TeamPage from './scenes/Team';
 // import InvoicesPage from './scenes/invoicesPage.jsx';
 // import Contacts from './scenes/contacts.jsx';
 // import Form from './scenes/form.jsx';
@@ -31,7 +31,7 @@ function App() {
             <Navbar />
             <Routes>
               <Route path='/' element={<Dashboard/>}/>
-              {/* <Route path='/team' element={<TeamPage/>}/> */}
+              <Route path='/team' element={<TeamPage/>}/>
               {/* <Route path='/contacts' element={<Contacts/>}/> */}
               {/* <Route path='/invoices' element={<InvoicesPage/>}/> */}
               {/* <Route path='/form' element={<Form/>}/> */}
