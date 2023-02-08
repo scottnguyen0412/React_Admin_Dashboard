@@ -1,5 +1,5 @@
 import {Box, Typography, useTheme} from '@mui/material';
-import {DataGrid} from '@mui/x-data-grid'; 
+import {DataGrid, GridToolbar} from '@mui/x-data-grid'; 
 
 import { colorTokens } from '../../theme';
 import {fakeDataTeam} from '../../data/fakeData';
@@ -75,11 +75,15 @@ const TeamPage = () => {
                             borderTop: "none",
                             backgroundColor: colors.blueAccent[700]
                         },  
+                        "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
+                            color: `${colors.grey[100]} !important`,
+                          },
                     }}
                 >
                     <DataGrid 
                          rows={fakeDataTeam}
                          columns = {columns}
+                         components= {{Toolbar: GridToolbar}}
                     />
                 </Box>
             </Box>

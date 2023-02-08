@@ -7,7 +7,7 @@ import Sidebar from './scenes/global/Sidebar.jsx';
 
 import TeamPage from './scenes/Team';
 // import InvoicesPage from './scenes/invoicesPage.jsx';
-// import Contacts from './scenes/contacts.jsx';
+import Contacts from './scenes/Contact';
 // import Form from './scenes/form.jsx';
 // import Bar from './scenes/Bar.jsx';
 // import Pie from './scenes/pie.jsx';
@@ -32,7 +32,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Dashboard/>}/>
               <Route path='/team' element={<TeamPage/>}/>
-              {/* <Route path='/contacts' element={<Contacts/>}/> */}
+              <Route path='/contacts' element={<Contacts/>}/>
               {/* <Route path='/invoices' element={<InvoicesPage/>}/> */}
               {/* <Route path='/form' element={<Form/>}/> */}
               {/* <Route path='/bar' element={<Bar/>}/> */}
