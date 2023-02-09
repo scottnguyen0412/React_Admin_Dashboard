@@ -13,7 +13,7 @@ import Form from './scenes/profileForm';
 // import Pie from './scenes/pie.jsx';
 // import Line from './scenes/Line.jsx';
 // import FAQ from './scenes/Faq.jsx';
-// import Calendar from './scenes/Calendar.jsx';
+import Calendar from './scenes/calendar';
 // import Geography from './scenes/Geo.jsx';
 
 
@@ -40,7 +40,7 @@ function App() {
               {/* <Route path='/line' element={<Line/>}/> */}
               {/* <Route path='/faq' element={<FAQ/>}/> */}
               {/* <Route path='/geography' element={<Geography/>}/> */}
-              {/* <Route path='/calendar' element={<Calendar/>}/> */}
+              <Route path='/calendar' element={<Calendar/>}/>
             </Routes>
           </main>
         </div>
