@@ -76,7 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Material UI(mui)
 - Material UI Datagrid
 - Material Icon
-- Formilk yup: validation form
+- Formilk and yup: validation form
 - Fullcalendar/daygrid
 - Fullcalendar/timegrid
 - Fullcalendar/list
