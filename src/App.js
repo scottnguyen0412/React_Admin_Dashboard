@@ -6,7 +6,7 @@ import Dashboard from './scenes/dashboard/index.jsx';
 import Sidebar from './scenes/global/Sidebar.jsx';
 
 import TeamPage from './scenes/Team';
-// import InvoicesPage from './scenes/invoicesPage.jsx';
+import InvoicesPage from './scenes/Invoices';
 import Contacts from './scenes/Contact';
 // import Form from './scenes/form.jsx';
 // import Bar from './scenes/Bar.jsx';
@@ -33,7 +33,7 @@ function App() {
               <Route path='/' element={<Dashboard/>}/>
               <Route path='/team' element={<TeamPage/>}/>
               <Route path='/contacts' element={<Contacts/>}/>
-              {/* <Route path='/invoices' element={<InvoicesPage/>}/> */}
+              <Route path='/invoices' element={<InvoicesPage/>}/>
               {/* <Route path='/form' element={<Form/>}/> */}
               {/* <Route path='/bar' element={<Bar/>}/> */}
               {/* <Route path='/pie' element={<Pie/>}/> */}
