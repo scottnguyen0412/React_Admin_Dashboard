@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FullCalendar from "@fullcalendar/react";
-import formatDate  from "@fullcalendar/react";
+import {formatDate}  from "@fullcalendar/core";
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import listPlugin from '@fullcalendar/list';
@@ -61,13 +61,14 @@ const Calendar = () => {
                             >
                                 <ListItemText 
                                     primary={event.title}
+                                    // Display day month and year when user set up event
                                     secondary={
                                         <Typography>
-                                            {/* {formatDate("2020-09-02", {
+                                            {formatDate(event.start, {
                                             year: "numeric",
                                             month: "short",
                                             day: "numeric",
-                                        })}  */}
+                                        })} 
                                         </Typography>
                                     }
                                     />
