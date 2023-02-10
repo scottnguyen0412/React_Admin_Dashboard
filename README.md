@@ -81,6 +81,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Fullcalendar/timegrid
 - Fullcalendar/list
 - Fullcalendar/react
+- Fullcalendar/core
 - Fullcalendar/interaction
 - Nivo charts
 

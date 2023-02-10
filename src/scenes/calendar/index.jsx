@@ -102,7 +102,7 @@ const Calendar = () => {
                             {
                                 id:"1234",
                                 title: "All-day event",
-                                date: "2023-07-02"
+                                date: "2023-02-07" // "YYYY/MM/DD"
                             },
                             {
                                 id:"12345",

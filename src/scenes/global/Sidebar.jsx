@@ -42,7 +42,7 @@ const Sidebar = () => {
     //Sidebar có bị thu gọn hay không
     const[isCollapsed, setIsCollapsed] = useState(false);
 
-    //Mục tôi đang chọn là đang ở mục nào 
+    //Mục user đang chọn là đang ở mục nào 
     const[selected, setSelected] = useState('Dashboard');
 
     return (
