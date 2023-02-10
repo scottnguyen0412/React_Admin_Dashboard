@@ -10,7 +10,7 @@ import InvoicesPage from './scenes/Invoices';
 import Contacts from './scenes/Contact';
 import Form from './scenes/profileForm';
 import Bar from './scenes/Bar';
-// import Pie from './scenes/pie.jsx';
+import Pie from './scenes/PieChart';
 // import Line from './scenes/Line.jsx';
 import FAQ from './scenes/Faq';
 import Calendar from './scenes/calendar';
@@ -36,7 +36,7 @@ function App() {
               <Route path='/invoices' element={<InvoicesPage/>}/>
               <Route path='/form' element={<Form/>}/>
               <Route path='/bar' element={<Bar/>}/>
-              {/* <Route path='/pie' element={<Pie/>}/> */}
+              <Route path='/pie' element={<Pie/>}/>
               {/* <Route path='/line' element={<Line/>}/> */}
               <Route path='/faq' element={<FAQ/>}/>
               {/* <Route path='/geography' element={<Geography/>}/> */}
