@@ -1,5 +1,4 @@
 
-
 import { ResponsiveLine } from '@nivo/line'
 import {useTheme} from '@mui/material';
 import { colorTokens } from '../theme';
