@@ -45,6 +45,13 @@ const BarChart = (isDashboard = false) => {
                     fill: colors.grey[100]
                 }
             },
+            
+            // Change color text for pop-up when hover
+            tooltip: {
+                container: {
+                    color: colors.primary[500]
+                }
+            }
         }}
         keys={[
             'hot dog',
