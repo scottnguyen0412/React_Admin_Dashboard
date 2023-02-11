@@ -10,7 +10,7 @@ import {mockLineData as data} from '../data/fakeData.js';
 // you'll often use just a few of them.
 
 // This properties used check is dashboard page or not
-const LineChart = (isDashboard = false) => {
+const LineChart = ({isDashboard = false}) => {
 
     const theme = useTheme();
     const colors = colorTokens(theme.palette.mode);
