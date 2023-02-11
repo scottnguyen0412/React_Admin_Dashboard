@@ -50,7 +50,7 @@ const Sidebar = () => {
             //Overside color pro-sidebar 
             sx={{
                 "& .pro-sidebar-inner" : {
-                    //overide color background
+                    //overide color background sidebar
                     background: `${colors.primary[400]} !important`,
                 },
 

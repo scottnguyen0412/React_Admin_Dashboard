@@ -148,8 +148,9 @@ export const themeSettings = (mode) => {
                     main: color.grey[500],
                     light: color.grey[100],
                 },
+                // Background content
                 background: {
-                    default: color.primary[500],
+                    default: "#7158e2",
                 }
             }: {
                 primary: {

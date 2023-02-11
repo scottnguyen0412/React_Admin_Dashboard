@@ -129,10 +129,61 @@ const Dashboard = () => {
                                         {transactions.date}
                                     </Box>
                                     <Box backgroundColor={colors.greenAccent[500]} p="5px 10px" borderRadius="4px">
-                                        {transactions.cost}
+                                        ${transactions.cost}
                                     </Box>
                                 </Box>
                             ))}
+                        </Box>
+                        {/* Row 3 */}
+                        <Box gridColumn="span 4"
+                            gridRow="span 2"
+                            backgroundColor={colors.primary[400]}
+                            p="30px"
+                        >
+                            <Typography variant="h5" fontWeight="600">
+                                Campain
+                            </Typography>
+                            <Box display="flex" flexDirection="column" alignItems="center" mt="25px">
+                                {/* Size meaning width and height truyền đến component progresscircle */}
+                                <ProgressCircle size="125"/>
+                                <Typography variant="h5" color={colors.greenAccent[500]} sx={{
+                                    mt: "15px"
+                                }}>
+                                    $48,352 revenue generated
+                                </Typography>
+                                <Typography>Includes extra misc expenditures and costs</Typography>
+
+                            </Box>
+                        </Box>
+
+                        <Box gridColumn="span 4"
+                            gridRow="span 2"
+                            backgroundColor={colors.primary[400]}
+                        >
+                            <Typography variant="h5" fontWeight="600" sx={{p: "30px 30px 0 30px"}}>
+                                Sale Quantity
+                            </Typography>
+                            <Box height="250px" mt="-20px">
+                                <BarChart isDashboard={true}/>
+                            </Box>
+                        </Box>
+
+                        <Box
+                            gridColumn="span 4"
+                            gridRow="span 2"
+                            backgroundColor={colors.primary[400]}
+                            padding="30px"
+                            >
+                            <Typography
+                                variant="h5"
+                                fontWeight="600"
+                                sx={{ marginBottom: "15px" }}
+                            >
+                                Geography Based Traffic
+                            </Typography>
+                            <Box height="200px">
+                                <GeoChart isDashboard={true} />
+                            </Box>
                         </Box>
                 </Box>
             </Box>
